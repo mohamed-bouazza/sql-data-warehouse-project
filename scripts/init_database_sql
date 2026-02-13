@@ -18,13 +18,13 @@ BEGIN
 END;
 GO
 
-
---Met la base en mode utilisateur unique
---Déconnecte immédiatement tous les utilisateurs
---Annule leurs requêtes en cours
---👉 Pourquoi ?
---Parce que SQL Server ne peut pas supprimer une base si quelqu’un l’utilise.
-
+/* 
+ Met la base en mode utilisateur unique
+ Déconnecte immédiatement tous les utilisateurs
+ Annule leurs requêtes en cours
+ 👉 Pourquoi ?
+ Parce que SQL Server ne peut pas supprimer une base si quelqu’un l’utilise.
+*/
 
 
 -- Create the 'DataWarehouse' database
