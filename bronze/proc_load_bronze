@@ -18,7 +18,7 @@ BEGIN
     BEGIN TRY
 
     ----------------------------------------------------------
-    -- 1️⃣ CRM CUSTOMER INFO
+    -- 1️ CRM CUSTOMER INFO
     ----------------------------------------------------------
         SET @start_time = GETDATE();
         PRINT '>> Truncating Table: bronze.crm_cust_info';
@@ -36,7 +36,7 @@ BEGIN
 
 
     ----------------------------------------------------------
-    -- 2️⃣ CRM PRODUCT INFO
+    -- 2️ CRM PRODUCT INFO
     ----------------------------------------------------------
         SET @start_time = GETDATE();
         PRINT '>> Truncating Table: bronze.crm_prd_info';
@@ -54,7 +54,7 @@ BEGIN
 
 
     ----------------------------------------------------------
-    -- 3️⃣ CRM SALES DETAILS
+    -- 3️ CRM SALES DETAILS
     ----------------------------------------------------------
         SET @start_time = GETDATE();
         PRINT '>> Truncating Table: bronze.crm_sales_details';
@@ -72,7 +72,7 @@ BEGIN
 
 
     ----------------------------------------------------------
-    -- 4️⃣ ERP CUSTOMER
+    -- 4️ ERP CUSTOMER
     ----------------------------------------------------------
         SET @start_time = GETDATE();
         PRINT '>> Truncating Table: bronze.erp_cust_az12';
@@ -90,7 +90,7 @@ BEGIN
 
 
     ----------------------------------------------------------
-    -- 5️⃣ LOCATION
+    -- 5️ LOCATION
     ----------------------------------------------------------
         SET @start_time = GETDATE();
         PRINT '>> Truncating Table: bronze.loc_a101';
@@ -108,7 +108,7 @@ BEGIN
 
 
     ----------------------------------------------------------
-    -- 6️⃣ ERP PRODUCT CATEGORY
+    -- 6️ ERP PRODUCT CATEGORY
     ----------------------------------------------------------
         SET @start_time = GETDATE();
         PRINT '>> Truncating Table: bronze.erp_px_cat_g1v2';
